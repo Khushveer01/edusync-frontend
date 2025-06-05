@@ -10,7 +10,7 @@ pr:
 
 variables:
   # This token should be stored securely in Azure DevOps Library as a secret variable
-  azure_static_web_apps_api_token: $(AZURE_STATIC_WEB_APPS_API_TOKEN)
+  azure_static_web_apps_api_token: 22695afe0c6ee7ac70e77d903d32a49a164e28c203617b48fe3be349cabef45806-77aa3431-e4e4-43e7-9ba7-456f42c8824c01029120ea91e410
 
 stages:
   - stage: BuildAndDeploy
